@@ -10,7 +10,7 @@ class Experience extends React.Component {
 
     render() {
         return (
-            <div id="experience">
+            <div id="experience" style={{height: 500}}>>
                 experience
             </div>
         )
