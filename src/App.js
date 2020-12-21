@@ -10,9 +10,6 @@ class App extends React.PureComponent {
   render () {
     return (
       <>
-        <Helmet>
-          <title>Jaewoo's Website</title>
-        </Helmet>
         <Header className="App-header" />
       </>
     )
