@@ -7,8 +7,8 @@ class Header extends React.Component {
             <div>
                 <nav>
                     <a href="home">
-                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                        <span className='navbar title'>>Jaewoo Cho</span>
+                        <i class="fab fa-connectdevelop"></i>
+                        <span className='navbar title'>Jaewoo Cho</span>
                     </a>
                 </nav>
             </div>
