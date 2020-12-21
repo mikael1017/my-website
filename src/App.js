@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Header from './components/Header';
+import Header from './components/header';
 
 const TITLE = "Jaewoo's Website"
 
@@ -11,9 +11,9 @@ class App extends React.PureComponent {
     return (
       <>
         <Helmet>
-          <title>{ TITLE }</title>
+          <title>Jaewoo's Website</title>
         </Helmet>
-        <Header/>
+        <Header className="App-header" />
       </>
     )
   }
