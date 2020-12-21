@@ -3,6 +3,11 @@ import './App.css';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Header from './components/header';
+import Portfolio from './components/portfolio';
+import About from './components/about';
+import Contact from './components/contact';
+import Experience from './components/experience';
+
 
 const TITLE = "Jaewoo's Website"
 
@@ -10,7 +15,11 @@ class App extends React.PureComponent {
   render () {
     return (
       <>
-        <Header className="App-header" />
+        <Header />
+        <About />
+        <Portfolio />
+        <Experience />
+        <Contact />
       </>
     )
   }

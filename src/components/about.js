@@ -4,10 +4,16 @@ class About extends React.Component {
 
     constructor(props) {
         super(props);
-
+   
     }
 
     render() {
-        
+        return(
+            <div id="about">
+                About
+            </div>
+        )
     }
 }
+
+export default About;
