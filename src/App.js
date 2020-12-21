@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import React from 'react'
-import { Helmet } from 'react-helmet'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Header from './components/Header';
 
-const TITLE = 'My Page Title'
+const TITLE = "Jaewoo's Website"
 
 class App extends React.PureComponent {
   render () {
@@ -12,7 +13,7 @@ class App extends React.PureComponent {
         <Helmet>
           <title>{ TITLE }</title>
         </Helmet>
-        ...
+        <Header/>
       </>
     )
   }
