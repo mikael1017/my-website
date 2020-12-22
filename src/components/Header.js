@@ -7,7 +7,7 @@ class Header extends React.Component {
         return (
             <header>
                 <nav>
-                    <a className="name" href="https://www.linkedin.com/in/chojaewoo/" target="_blank" rel="noopener noreferrer">
+                    <a className="name" style="text-decoration:none" href="https://www.linkedin.com/in/chojaewoo/" target="_blank" rel="noopener noreferrer">
                         Jaewoo Cho
                         <i class="fab fa-linkedin"></i>
                     </a>
@@ -20,9 +20,9 @@ class Header extends React.Component {
                 </nav>
                 <div className="navbar-name">
                     <h1 className="name">Jaewoo Cho</h1>
-                    <div className="">
-                        <p>QA Test Engineer</p>
-                        <p>In the process of becoming a Software Developer</p>
+                    <div className="my-description">
+                        <p>Working as a QA Test Engineer</p>
+                        <p>In a process of becoming a Software Developer</p>
                     </div>
                 </div>
             </header>

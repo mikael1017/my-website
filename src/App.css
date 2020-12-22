@@ -67,6 +67,7 @@ Header {
 .content{
   color: var(--color-white);
   background-color: var(--color-point);
+  font-size: var(--font-large);
 }
 
 .navbar-name {
