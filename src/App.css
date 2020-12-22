@@ -47,3 +47,12 @@ li:hover {
   cursor: pointer;
 
 }
+
+header {
+  font-family: "Alef", sans-serif;
+  color: var(--color-white);
+}
+
+.name {
+  font-size: var(--font-xxlarge);
+}
