@@ -10,7 +10,7 @@ class Portfoilio extends React.Component {
 
     render() {
         return (
-            <div id="portfoilo" style={{height: 500}}>
+            <div id="portfolio" style={{height: 500}}>
                 portfolio
             </div>
         )
