@@ -76,10 +76,6 @@ Header {
 
 }
 
-.my-description {
-  font-size: var(--font-small);
-}
-
 .name {
   font-size: var(--font-xlarge);
 }

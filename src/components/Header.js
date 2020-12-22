@@ -20,10 +20,8 @@ class Header extends React.Component {
                 </nav>
                 <div className="navbar-name">
                     <h1 className="name">Jaewoo Cho</h1>
-                    <div className="my-description">
-                        <p>Working as a QA Test Engineer</p>
-                        <p>In a process of becoming a Software Developer</p>
-                    </div>
+                    <p>Working as a QA Test Engineer</p>
+                    <p>In a process of becoming a Software Developer</p>
                 </div>
             </header>
         )
