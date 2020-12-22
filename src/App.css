@@ -53,6 +53,11 @@ header {
   color: var(--color-white);
 }
 
+.navbar-name {
+  text-align: center;
+
+}
+
 .name {
-  font-size: var(--font-xxlarge);
+  font-size: var(--font-xlarge);
 }

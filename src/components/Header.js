@@ -20,7 +20,7 @@ class Header extends React.Component {
                         <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
                     </ul>
                 </nav>
-                <div>
+                <div className="navbar-name">
                     <h1 className="name">Jaewoo Cho</h1>
                     <div className="">
                         <p>QA Test Engineer</p>
