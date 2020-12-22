@@ -89,3 +89,7 @@ a {
   text-decoration: none;
   color: var(--color-white);
 }
+
+.my-description {
+  font-size: var(--font-small);
+}
