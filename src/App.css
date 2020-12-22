@@ -77,3 +77,8 @@ Header {
 .name {
   font-size: var(--font-xlarge);
 }
+
+i.fab {
+  padding: 1px;
+  font-size: var(--font-medium);
+}

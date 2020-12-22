@@ -7,10 +7,10 @@ class Header extends React.Component {
         return (
             <header>
                 <nav>
-                    <Link className="name" activeClass="active" to="home" spy={true} smooth={true}>
+                    <a className="name" href="https://www.linkedin.com/in/chojaewoo/" target="_blank" rel="noopener noreferrer">
                         Jaewoo Cho
                         <i class="fab fa-linkedin"></i>
-                    </Link>
+                    </a>
                     <ul style={{display: 'flex', listStyle: 'none', justifyContent: 'space-around'}}>
                         <li><Link to="about" spy={true} smooth={true}>About</Link></li>
                         <li><Link to="experience" spy={true} smooth={true}>Experience</Link></li>
