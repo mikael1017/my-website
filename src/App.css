@@ -43,7 +43,7 @@
   --font-medium: 1.5rem;
   --font-small: 1rem;
 }
-nav {
-  cursor: pointer,
+li:hover {
+  cursor: pointer;
 
 }
