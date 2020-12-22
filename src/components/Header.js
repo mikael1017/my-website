@@ -7,13 +7,11 @@ class Header extends React.Component {
         return (
             <header>
                 <nav>
+                    <Link className="name" activeClass="active" to="home" spy={true} smooth={true}>
+                        Jaewoo Cho
+                        <i class="fab fa-linkedin"></i>
+                    </Link>
                     <ul style={{display: 'flex', listStyle: 'none', justifyContent: 'space-around'}}>
-                        <li>
-                            <Link className="name" activeClass="active" to="home" spy={true} smooth={true}>
-                                <i class="fas fa-futbol"></i>
-                                Jaewoo Cho
-                            </Link>
-                            </li>
                         <li><Link to="about" spy={true} smooth={true}>About</Link></li>
                         <li><Link to="experience" spy={true} smooth={true}>Experience</Link></li>
                         <li><Link to="portfolio" spy={true} smooth={true}>Portfolio</Link></li>
