@@ -16,10 +16,12 @@ class App extends React.PureComponent {
     return (
       <>
         <Header />
-        <About />
-        <Experience />
-        <Portfolio />
-        <Contact />
+        <div className="content">
+          <About />
+          <Experience />
+          <Portfolio />
+          <Contact />
+        </div>
       </>
     )
   }
