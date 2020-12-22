@@ -76,11 +76,20 @@ Header {
 
 }
 
+.my-description {
+  font-size: var(--font-small);
+}
+
 .name {
   font-size: var(--font-xlarge);
 }
 
 i.fab {
-  padding: 1px;
+  padding: 5px;
   font-size: var(--font-medium);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
 }
