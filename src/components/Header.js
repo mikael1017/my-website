@@ -7,7 +7,7 @@ class Header extends React.Component {
         return (
             <header>
                 <nav>
-                    <a className="name" style="text-decoration:none" href="https://www.linkedin.com/in/chojaewoo/" target="_blank" rel="noopener noreferrer">
+                    <a className="name" href="https://www.linkedin.com/in/chojaewoo/" target="_blank" rel="noopener noreferrer">
                         Jaewoo Cho
                         <i class="fab fa-linkedin"></i>
                     </a>

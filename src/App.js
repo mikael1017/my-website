@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import Header from './components/header';
 import Portfolio from './components/portfolio';
 import About from './components/about';

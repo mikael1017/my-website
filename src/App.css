@@ -62,6 +62,7 @@ Header {
   font-family: "Alef", sans-serif;
   color: var(--color-white);
   background-color: var(--color-point);
+  font-size: var(--font-large);
 }
 
 .content{
