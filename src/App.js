@@ -17,8 +17,8 @@ class App extends React.PureComponent {
       <>
         <Header />
         <About />
-        <Portfolio />
         <Experience />
+        <Portfolio />
         <Contact />
       </>
     )
