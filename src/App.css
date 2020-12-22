@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+:root {
+  --font-xxlarge: 3.5rem;
+  --font-xlarge: 3rem;
+  --font-large: 2rem;
+  --font-medium: 1.5rem;
+  --font-small: 1rem;
+}
+nav {
+  cursor: pointer,
+
+}

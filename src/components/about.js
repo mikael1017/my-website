@@ -9,7 +9,7 @@ class About extends React.Component {
 
     render() {
         return(
-            <div id="about" style={{height: 500}}>>
+            <div id="about" style={{height: 500}}>
                 About
             </div>
         )

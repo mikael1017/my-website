@@ -9,7 +9,7 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <div id="contact" style={{height: 500}}>>
+            <div id="contact" style={{height: 500}}>
                 contact me
             </div>
         )
