@@ -1,41 +1,4 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 :root {
   --font-xxlarge: 3.5rem;
   --font-xlarge: 3rem;
@@ -52,21 +15,26 @@
   --color-white: rgb(255, 255, 255);
   --color-point: rgb(204, 204, 255);
   --color-black: rgb(34, 33, 33);
+  --color-highlight: rgb(147,112,219);
 }
-li:hover {
+.menu-icon:hover, li:hover {
   cursor: pointer;
-
 }
 
-Header {
+
+header {
   font-family: "Alef", sans-serif;
-  color: var(--color-white);
+  color: var(--color-black);
   background-color: var(--color-point);
   font-size: var(--font-large);
 }
 
+nav {
+  color: var(--color-black);
+}
+
 .content{
-  color: var(--color-white);
+  color: var(--color-black);
   background-color: var(--color-point);
   font-size: var(--font-large);
 }
@@ -87,9 +55,14 @@ i.fab {
 
 a {
   text-decoration: none;
-  color: var(--color-white);
+  color: var(--color-black);
+}
+
+a:hover {
+  color: var(--color-highlight);
 }
 
 .my-description {
   font-size: var(--font-small);
+  margin: 1px;
 }

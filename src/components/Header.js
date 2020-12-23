@@ -1,31 +1,50 @@
 import React from "react";
+import { useState } from 'react';
 import {Link} from "react-scroll";
+import "./header.css";
 
-class Header extends React.Component {
+function Header() {
+    const [click, setClick] = useState(false);
 
-    render() {
-        return (
-            <header>
-                <nav>
+    const handleMenuClick = () => setClick(!click);
+    return (
+        <>
+            <nav className="navbar">
+                <div className="navbar-container">
                     <a className="name" href="https://www.linkedin.com/in/chojaewoo/" target="_blank" rel="noopener noreferrer">
                         Jaewoo Cho
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <ul style={{display: 'flex', listStyle: 'none', justifyContent: 'space-around'}}>
-                        <li><Link to="about" spy={true} smooth={true}>About</Link></li>
-                        <li><Link to="experience" spy={true} smooth={true}>Experience</Link></li>
-                        <li><Link to="portfolio" spy={true} smooth={true}>Portfolio</Link></li>
-                        <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
+
+                    <div className='menu-icon' onClick={handleMenuClick}>
+                        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+                    </div>
+
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                        <li className='nav-item'>
+                            <Link className='nav-links' to="about" spy={true} smooth={true}>About</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link className='nav-links' to="experience" spy={true} smooth={true}>Experience</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link className='nav-links' to="portfolio" spy={true} smooth={true}>Portfolio</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link className='nav-links' to="contact" spy={true} smooth={true}>Contact</Link>
+                        </li>
                     </ul>
-                </nav>
-                <div className="navbar-name">
-                    <h1 className="name">Jaewoo Cho</h1>
-                    <p className="my-description">Working as a QA Test Engineer</p>
-                    <p className="my-description">In a process of becoming a Software Developer</p>
                 </div>
-            </header>
-        )
-    }
+            </nav>
+
+
+            <div className="navbar-name">
+                <h1 className="name">Jaewoo Cho</h1>
+                <p className="my-description">Working as a QA Test Engineer</p>
+                <p className="my-description">In a process of becoming a Software Developer</p>
+            </div>
+        </>
+    )
 }
 
 export default Header;
