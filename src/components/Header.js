@@ -20,18 +20,18 @@ function Header() {
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
 
-                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                    <ul className='nav-menu'>
                         <li className='nav-item'>
-                            <Link className='nav-links' to="about" spy={true} smooth={true}>About</Link>
+                            <Link className='nav-links' to="about" spy={true} smooth={true} onClick={handleMenuClick}>About</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link className='nav-links' to="experience" spy={true} smooth={true}>Experience</Link>
+                            <Link className='nav-links' to="experience" spy={true} smooth={true} onClick={handleMenuClick}>Experience</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link className='nav-links' to="portfolio" spy={true} smooth={true}>Portfolio</Link>
+                            <Link className='nav-links' to="portfolio" spy={true} smooth={true} onClick={handleMenuClick}>Portfolio</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link className='nav-links' to="contact" spy={true} smooth={true}>Contact</Link>
+                            <Link className='nav-links' to="contact" spy={true} smooth={true} onClick={handleMenuClick}>Contact</Link>
                         </li>
                     </ul>
                 </div>
@@ -39,9 +39,9 @@ function Header() {
 
 
             <div className="navbar-name">
-                <h1 className="name">Jaewoo Cho</h1>
-                <p className="my-description">Working as a QA Test Engineer</p>
-                <p className="my-description">In a process of becoming a Software Developer</p>
+                <h1 className="name">Jaewoo</h1>
+                {/* <p className="my-description">Working as a QA Test Engineer</p>
+                <p className="my-description">In a process of becoming a Software Developer</p> */}
             </div>
         </>
     )

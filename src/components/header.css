@@ -18,6 +18,14 @@
     --color-highlight: rgb(147,112,219);
   }
 
+.navbar-name {
+    background-image: url("./images/uwquad.jpg");
+    background-color: transparent 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+}
 
 .navbar {
     background: linear-gradient(90deg, var(--color-point) 0%, rgb(202, 200, 251) 100%);
@@ -76,10 +84,11 @@
   .menu-icon {
     display: none;
   }
-  
+/*   
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;
+      
     }
   
     .nav-menu {
@@ -92,14 +101,16 @@
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
+      background-color: var(--color-black);
     }
   
     .nav-menu.active {
       background-color: var(--color-point);
-      left: 0;
+      left: 0%;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;
+      text-align: center;
     }
   
     .nav-links {
@@ -157,4 +168,4 @@
       color: #242424;
       transition: 250ms;
     }
-  }
+  } */
