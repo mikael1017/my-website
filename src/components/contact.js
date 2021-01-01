@@ -1,5 +1,6 @@
 import React from "react";
 import emailjs from 'emailjs-com';
+import "./contact.css";
 
 
 
@@ -16,6 +17,7 @@ export default function Contact() {
               console.log(error.text);
           });
           e.target.reset()
+        alert("Email was successfully sent to Jaewoo!");
     }
 
     return(
@@ -37,7 +39,7 @@ export default function Contact() {
                           <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                       </div>
                       <div className="col-8 pt-3 mx-auto">
-                          <input type="submit" className="btn btn-info" value="Send Message"></input>
+                          <input type="submit" className="btn btn-info" value="Send Email"></input>
                       </div>
                   </div>
               </form>
