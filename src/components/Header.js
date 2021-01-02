@@ -40,8 +40,8 @@ function Header() {
 
             <div className="navbar-name">
                 <h1 className="name">Jaewoo</h1>
-                {/* <p className="my-description">Working as a QA Test Engineer</p>
-                <p className="my-description">In a process of becoming a Software Developer</p> */}
+                <p className="my-description">Working as a QA Test Engineer</p>
+                <p className="my-description">In a process of becoming a Software Developer</p>
             </div>
         </>
     )

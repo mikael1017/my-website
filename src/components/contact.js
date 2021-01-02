@@ -22,8 +22,8 @@ export default function Contact() {
 
     return(
       <div>
-          <div className="container">
-              Send me an Email! 
+          <div id="contact" className="container">
+              Send me an Email!
           <form onSubmit={sendEmail}>
                   <div className="row pt-5 mx-auto">
                       <div className="col-8 form-group mx-auto">
