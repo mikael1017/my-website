@@ -5,16 +5,16 @@ import "./experience.css";
 
 function Experience() {
     function highlight(e) {
-        e.target.className = "fas fa-file";
+        e.target.className = "fas fa-file-alt";
     }
 
     function unhighlight(e) {
-        e.target.className = "far fa-file";
+        e.target.className = "far fa-file-alt";
     }
 
     return (
         <div id="experience" style={{height: 500}}>
-            Experience div
+            Experience
             <p>
                 <a className="resume" href={Profile} target="_blank" rel="noopener noreferrer">
                     Click to see my resume
