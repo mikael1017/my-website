@@ -14,7 +14,7 @@ function Experience() {
 
     return (
         <div id="experience" style={{height: 500}}>
-            Experience
+            Experience div
             <p>
                 <a className="resume" href={Profile} target="_blank" rel="noopener noreferrer">
                     Click to see my resume
