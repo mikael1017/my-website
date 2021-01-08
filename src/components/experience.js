@@ -21,7 +21,17 @@ function Experience() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Click to see my resume
+          <div>
+            <b>Math Tutor</b>
+            <h5 id="tutorDescription">
+              Tutored middle school students who struggled in math Examined what
+              each student is having trouble with and helped each individual
+              with their weaknesses Improved all of students’ grade Result:
+              Learned how to interact with people who don’t have much
+              understanding in subject and learned how to transfer my knowledge
+              to other people
+            </h5>
+          </div>
           <i
             class="far fa-file-alt"
             onMouseEnter={highlight}
