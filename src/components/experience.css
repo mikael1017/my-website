@@ -1,3 +1,12 @@
-.far, .fas {
-    margin: 15px;
+.far,
+.fas {
+  margin: 15px;
+}
+
+.ex_title {
+  font-size: 30px;
+}
+
+.description {
+  font-size: 16px;
 }
